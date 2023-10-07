@@ -1,0 +1,48 @@
+Introduction to NumPy
+    What is NumPy?
+    Installing NumPy
+    Basic NumPy array operations
+
+NumPy data types
+    Integers
+    Floating-point numbers
+    Complex numbers
+    Booleans
+    Strings
+    
+NumPy array creation
+    Creating arrays from lists
+    Creating arrays from other arrays
+    Creating arrays from scratch
+
+NumPy array indexing
+    Basic indexing
+    Advanced indexing
+    
+NumPy array slicing
+    Basic slicing
+    Advanced slicing
+
+NumPy array operations
+    Mathematical operations
+    Logical operations
+    Statistical operations
+    Array manipulation operations
+
+NumPy linear algebra
+    Matrix multiplication
+    Matrix inversion
+    Eigendecomposition
+
+NumPy random number generation
+    Generating random numbers
+    Generating random arrays
+
+NumPy I/O
+    Reading and writing arrays from files
+    Reading and writing arrays from streams
+
+NumPy applications
+    Machine learning
+    Data science
+    Scientific computing
