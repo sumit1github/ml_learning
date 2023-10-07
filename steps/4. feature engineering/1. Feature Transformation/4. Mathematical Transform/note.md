@@ -3,15 +3,15 @@
 * log tranform
 * reciprocal transform
 * Box-Cox
-* yeo-jonsom
+* yeo-jonson
 
 #### why the performance of the models gos up after apply the transformation
 
-> It helps in data stribution. After applying this the pda (Probability density function) get converted into `normal distribution`
+> It helps in data distribution. After applying this the pda (Probability density function) get converted into `normal distribution`
 
 * normal distribution : It is helps to solve the problem. The calculation and problem get easy.
 
-* performance of Rigression depands a lot pon the normal distribution.
+* performance of Rigression depands a lot upon the normal distribution.
 
 # what is function transformar
 
@@ -39,3 +39,24 @@
 
 > where we have to use log transform
 * if the data is right sceqed in the line graph
+
+
+# Reciprocal transform
+It is diffrent type of transform. Your small values will be converted large and large will be converted to small values.
+
+# squreroot
+> where we have to 
+* if the data is left sceqed in the line graph
+
+# BOX-COX
+we can convert any distribution to normal distribution.
+> `λ` or lambda is the hero here.
+* The value of the lambda varies in range betwnn 5 to -5. 
+* we examin the all the values of λ (eg 1,1.1,1.2) and choose the optimal value, resulting the best approxmation to a normal distribution.
+> This transformation is only applicable to the `numbers > 0.`
+
+> when you apply the box-cox, standard scaler is applied internally.
+
+# yeo-jonson
+same as box-cox. but `can be applied for the numbers <= 0`.
+* yeo-jonson gives better result than yeo-jonson
