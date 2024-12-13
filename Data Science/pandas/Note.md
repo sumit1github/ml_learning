@@ -173,9 +173,9 @@ df.to_excel('train.xlsx', sheet_name="Sheet1")
     -<> pd.read_csv('aug_train.csv',na_values=['---','...', '1111'])
         -> here it will convert all '---','...', '1111' values to NAN
 ```
-# to fill the nan values
+# to fill the nan values with 'NA'
 df = pd.read_csv(file, sep="|")
-df.fillna("NA")
+new_df = df.fillna("NA")
 ```
 
 `Loading a huge dataset in chunks`
