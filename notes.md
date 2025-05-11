@@ -1,6 +1,6 @@
 # -- key points of ML
     -> ml algo is pure math, it not understands the text
-    -> If you are dealing with the strung data, you need to convert it to numbers any how
+    -> If you are dealing with the string data, you need to convert it to numbers any how
 
 
 # --------- types of ml -------------
